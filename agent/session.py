@@ -89,4 +89,3 @@ class Session:
             "tools_count": len(self.tool_registry.get_tools()),
             "mcp_servers": len(self.tool_registry.connected_mcp_servers),
         }
-
